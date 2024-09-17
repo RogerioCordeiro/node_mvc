@@ -85,3 +85,7 @@ module.exports = class TaskController {
   }
 };
 ```
+
+### Uso do Task para rotas
+
+-
