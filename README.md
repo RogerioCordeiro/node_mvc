@@ -25,6 +25,7 @@
 - [Uso do Task](#uso-o-metódo-task)
   - [Criar tabelas com Task](#uso-do-task-para-criar-tabelas-no-banco-de-dados)
   - [Controller com Task](#uso-do-task-no-controller-da-aplicação)
+  - [Rotas com Task](#uso-do-task-para-rotas)
 
 ## O que é MVC (Model-View-Controller)?
 
@@ -88,4 +89,14 @@ module.exports = class TaskController {
 
 ### Uso do Task para rotas
 
--
+- Com o uso do Routers do express pode gerenciar as rotas pelo controller do _tasks_
+- exemplo de implementação:
+
+```javascript
+const TaskController = require("../controllers/TaskController");
+
+router.get("/add", TaskController.createTask);
+router.get("/", TaskController.showTasks);
+
+module.exports = router;
+```
