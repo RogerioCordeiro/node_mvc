@@ -29,7 +29,7 @@
 
 ## O que é MVC (Model View Controller)?
 
-O MVC (Model-View-Controller) é um padrão de arquitetura de software utilizado para organizar a estrutura de aplicações, separando responsabilidades de forma clara:
+O MVC (Model View Controller) é um padrão de arquitetura de software utilizado para organizar a estrutura de aplicações, separando responsabilidades de forma clara:
 
 - ### **Model (Modelo):**
   Responsável por gerenciar os dados e a lógica de negócios. Ele acessa o banco de dados, processa as informações e fornece os dados necessários ao controlador.
