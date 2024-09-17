@@ -1,6 +1,15 @@
-const { Sequilize } = require('sequilize')
+const { Sequelize } = require('sequelize')
 
-const sequilize = new Sequilize('nodemvc', 'root', '', {
+const sequelize = new Sequelize('nodemvc', 'root', '', {
     host: 'localhost',
-    dialext: 'mysql',
+    dialect: 'mysql',
 })
+
+try {
+    sequelize.authenticate()
+    console.log(`Conectamos ao Mysql`)
+} catch (error) {
+    console.log(`Não foi possível conectar ${error}`)
+}
+
+module.exports = sequelize
