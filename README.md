@@ -22,6 +22,7 @@
   - [Model](#model-modelo)
   - [View](#view-visão)
   - [Controller](#controller-controlador)
+- [Uso do Task](#uso-o-metódo-task)
 
 ## O que é MVC (Model-View-Controller)?
 
@@ -37,3 +38,32 @@ O MVC (Model-View-Controller) é um padrão de arquitetura de software utilizado
   Faz a ponte entre o Model e a View. Ele recebe as ações do usuário, interage com o Model para manipular os dados e atualiza a View com os resultados.
 
 Esse padrão ajuda a manter a aplicação organizada, facilitando o desenvolvimento, a manutenção e a escalabilidade do sistema.
+
+## Uso o metódo Task
+
+- O Task é utilizado para criar as tabelas no banco de dados.
+- informando o nome dos campo e seus tipos em forma de objeto.
+- _Exemplo:_
+
+```javascript
+const { DataTypes } = require("sequelize");
+
+const db = require("../db/conn");
+
+const Task = db.define(`Task`, {
+  title: {
+    type: DataTypes.STRING,
+    required: true,
+  },
+  description: {
+    type: DataTypes.STRING,
+    required: true,
+  },
+  done: {
+    type: DataTypes.BOOLEAN,
+    required: true,
+  },
+});
+
+module.exports = Task;
+```
