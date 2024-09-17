@@ -1,4 +1,4 @@
-# Projeto em node utilizando padrão MVC
+# Projeto em **NODE** utilizando padrão MVC
 
 - Para realizar teste na aplicação crie um banco de dados com o nome nodemvc ou altere o nome do banco no arquivo ./db/conn.js
 
@@ -12,11 +12,11 @@
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-## Status do Projeto
+#### Status do Projeto
 
 ![Em Desenvolvimento](https://img.shields.io/badge/Status-Em_Desenvolvimento-orange?style=for-the-badge)
 
-# Indíce
+## Indíce
 
 - [O que é MVC](#o-que-é-mvc-model-view-controller)
   - [Model](#model-modelo)
@@ -27,7 +27,7 @@
   - [Controller com Task](#uso-do-task-no-controller-da-aplicação)
   - [Rotas com Task](#uso-do-task-para-rotas)
 
-## O que é MVC (Model-View-Controller)?
+## O que é MVC (Model View Controller)?
 
 O MVC (Model-View-Controller) é um padrão de arquitetura de software utilizado para organizar a estrutura de aplicações, separando responsabilidades de forma clara:
 
@@ -42,7 +42,7 @@ O MVC (Model-View-Controller) é um padrão de arquitetura de software utilizado
 
 Esse padrão ajuda a manter a aplicação organizada, facilitando o desenvolvimento, a manutenção e a escalabilidade do sistema.
 
-## Utiliznado o Task
+## Utilizando **_Task_**
 
 ### Uso do Task para criar tabelas no banco de dados
 
