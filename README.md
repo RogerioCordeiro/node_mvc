@@ -23,6 +23,8 @@
   - [View](#view-visão)
   - [Controller](#controller-controlador)
 - [Uso do Task](#uso-o-metódo-task)
+  - [Criar tabelas com Task](#uso-do-task-para-criar-tabelas-no-banco-de-dados)
+  - [Controller com Task](#uso-do-task-no-controller-da-aplicação)
 
 ## O que é MVC (Model-View-Controller)?
 
@@ -39,9 +41,11 @@ O MVC (Model-View-Controller) é um padrão de arquitetura de software utilizado
 
 Esse padrão ajuda a manter a aplicação organizada, facilitando o desenvolvimento, a manutenção e a escalabilidade do sistema.
 
-## Uso o metódo Task
+## Utiliznado o Task
 
-- O Task é utilizado para criar as tabelas no banco de dados.
+### Uso do Task para criar tabelas no banco de dados
+
+- Utilizado Task para criar as tabelas no banco de dados.
 - informando o nome dos campo e seus tipos em forma de objeto.
 - _Exemplo:_
 
@@ -66,4 +70,18 @@ const Task = db.define(`Task`, {
 });
 
 module.exports = Task;
+```
+
+### Uso do Task no controller da aplicação
+
+- Task pode ser utilizado para criar os controllers da aplicação;
+
+```javascript
+const Task = require("../models/Task");
+
+module.exports = class TaskController {
+  static createTask(req, res) {
+    res.render("tasks/create");
+  }
+};
 ```
