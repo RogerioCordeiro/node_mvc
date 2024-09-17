@@ -15,3 +15,25 @@
 ## Status do Projeto
 
 ![Em Desenvolvimento](https://img.shields.io/badge/Status-Em_Desenvolvimento-orange?style=for-the-badge)
+
+# Indíce
+
+- [O que é MVC](#o-que-é-mvc-model-view-controller)
+  - [Model](#model-modelo)
+  - [View](#view-visão)
+  - [Controller](#controller-controlador)
+
+## O que é MVC (Model-View-Controller)?
+
+O MVC (Model-View-Controller) é um padrão de arquitetura de software utilizado para organizar a estrutura de aplicações, separando responsabilidades de forma clara:
+
+- ### **Model (Modelo):**
+  Responsável por gerenciar os dados e a lógica de negócios. Ele acessa o banco de dados, processa as informações e fornece os dados necessários ao controlador.
+- ### **View (Visão):**
+
+  Representa a interface do usuário, ou seja, o que ele vê na tela. A View exibe as informações fornecidas pelo Model de maneira visual.
+
+- ### **Controller (Controlador):**
+  Faz a ponte entre o Model e a View. Ele recebe as ações do usuário, interage com o Model para manipular os dados e atualiza a View com os resultados.
+
+Esse padrão ajuda a manter a aplicação organizada, facilitando o desenvolvimento, a manutenção e a escalabilidade do sistema.
