@@ -1,4 +1,4 @@
-[![Typing SVG](<https://readme-typing-svg.demolab.com?font=Segoe+UI&pause=4000&color=00fe9c&width=800&lines=Projeto+em+NODE.js+como+usar+o+padrão+MVC+(Model+View+Controller)>)](https://git.io/typing-svg)
+# [![Typing SVG](<https://readme-typing-svg.demolab.com?font=Segoe+UI&pause=4000&color=ffffff&width=705&lines=Projeto+em+NODE.js+como+usar+o+padrão+MVC+(Model+View+Controller)>)](https://git.io/typing-svg)
 
 # Projeto TODO em **NODE** utilizando padrão MVC
 
