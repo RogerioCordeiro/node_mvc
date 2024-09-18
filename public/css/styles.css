@@ -8,7 +8,7 @@
     border-bottom: px solid #ccc;
     padding: 1em 2em;
     margin-bottom: 1em;
-    background-color: #db4c3f;
+    background-color: #315c85;
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -54,7 +54,7 @@
 
 input[type="submit"] {
     padding: .7em 1.5em;
-    background-color: #db4c3f;
+    background-color: #315c85;
     color: white;
     border: none;
     border-radius: 5px;
@@ -71,4 +71,42 @@ input[type="submit"] {
 
 .container form {
     margin-top: 1.5em;
+}
+
+.task-list {
+    list-style: none;
+    margin-top: 1em;
+}
+
+.task-list li {
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border-bottom: 1px solid #efefef;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task-list .title {
+    font-weight: bold;
+    color: #315c85;
+    transition: .5s;
+    font-size: 1.2em;
+}
+
+.task-list .title:hover {
+    color: #333;
+}
+
+.actions {
+    display: flex;
+}
+
+.actions i {
+    font-size: 1.5em;
+    margin-right: .6em;
+    color: #333;
+}
+
+.actions i:hover {
+    color: #315c85;
 }
